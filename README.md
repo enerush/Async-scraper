@@ -37,29 +37,3 @@ Saving DATA to: Postgres DB, Google Sheets
 6. Check result in DB or in Google Sheets:
    - https://docs.google.com/spreadsheets/d/1OaclRBnBQcUqmUw778KplyEhKV5kLkoDF31V2NteukA/edit?usp=sharing
 
-
-############# PROJECT STRUCTURE
-  
-[sourcecode language=”bash”]
-│
-├── Model
-│     ├── __init__.py 
-│     ├── database.py
-│     └── dump.sql
-├── Sheets
-│     ├── google_sheets.py
-│     └──service_account.json
-│
-├── README.md
-├── .gitignore   
-├── config.py
-├── docker-compose.yml
-├── Dockerfile
-├── requirements.txt
-├── scraper.py
-└── scraper_async.py
-  
-[/sourcecode]
-
-
-
