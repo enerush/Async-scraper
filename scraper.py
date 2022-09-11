@@ -15,7 +15,7 @@ def get_all_urls(url: str, headers: dict) -> list:      # Generate a package of 
         count = int(count.split('of')[1].split('result')[0].strip()) // 40 + 1
     except:
         count = 1
-    print(count)
+    print('Page count :', count)
     all_urls = [
         f'https://www.kijiji.ca/b-apartments-condos/city-of-toronto/page-{i}/c37l1700273' for i in range(1, count + 1)
     ]
