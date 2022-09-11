@@ -1,0 +1,14 @@
+version: '3'
+services:
+
+  scraper:
+    build:
+      context: .
+      dockerfile: Dockerfile
+
+  db:
+    image: postgres:11-alpine
+    restart: always
+    environment:
+      POSTGRES_PASSWORD: qwerty
+
