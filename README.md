@@ -39,6 +39,8 @@ Saving DATA to: Postgres DB, Google Sheets
 
 
 ############# PROJECT STRUCTURE
+  
+[sourcecode language=”bash”]
 │
 ├── Model
 │     ├── __init__.py 
@@ -56,6 +58,8 @@ Saving DATA to: Postgres DB, Google Sheets
 ├── requirements.txt
 ├── scraper.py
 └── scraper_async.py
+  
+[/sourcecode]
 
 
 
