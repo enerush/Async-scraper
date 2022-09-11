@@ -21,11 +21,11 @@ Saving DATA to: Postgres DB, Google Sheets
    - $ pip install -r requirements.txt
    - open config.py and add your DB access.
      Exemple:
-           USER_NAME = <user name>
-           USER_PASSWORD = 'postgres'
-           DB_HOST = 'localhost'
-           DB_PORT = '5432'
-           DB_NAME = 'postgres'
+           - USER_NAME = <user name>
+           - USER_PASSWORD = 'postgres'
+           - DB_HOST = 'localhost'
+           - DB_PORT = '5432'
+           - DB_NAME = 'postgres'
   
    - $ python3 scraper_async.py  (for asynchronous requests)
    - or $ python3 scraper.py  (for synchronous requests)
