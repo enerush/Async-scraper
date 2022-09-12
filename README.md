@@ -11,7 +11,7 @@ Saving DATA to: Postgres DB, Google Sheets
 ############ HOW TO RUN THE SCRAPER
 1. Install GIT for your system (https://github.com/git-guides/install-git)
 
-2. Download the project from Github. Run following command in terminal:
+2. Download the project from Github:
   - $ git clone https://github.com/enerush/task-DataOx.git
 
 4. Steps to run script without DOCKER:
@@ -31,8 +31,8 @@ Saving DATA to: Postgres DB, Google Sheets
    - or $ python3 scraper.py  (for synchronous requests)
 
 5. Steps to run script with DOCKER:
-    - $ cd ~/task-DataOx
     - Install docker (https://docs.docker.com/engine/install/)
+    - $ cd ~/task-DataOx
     - $ docker-compose up
 
 6. Check result in DB or in Google Sheets:
